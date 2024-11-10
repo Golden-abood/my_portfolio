@@ -1,14 +1,16 @@
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Works from "./components/Works";
-import Contact from "./components/Contact";
-import Feedbacks from "./components/Feedbacks";
-import StarsCanvas from "./components/StarsCanvas";
-import Tech from "./components/Tech";
+import {
+  Navbar,
+  Hero,
+  About,
+  Experience,
+  Tech,
+  Works,
+  Feedbacks,
+  Contact,
+  StarsCanvas,
+} from "./components";
 function App() {
   return (
     <BrowserRouter>
