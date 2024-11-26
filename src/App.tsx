@@ -7,10 +7,9 @@ import {
   Experience,
   Tech,
   Works,
-  Feedbacks,
   Contact,
   StarsCanvas,
-} from "./components";
+} from "./components/index";
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +22,7 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
