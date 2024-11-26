@@ -22,9 +22,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "allowJs": true,
   },
   "include": [
-    "src"
+    "src",
+    "src/declarations.d.ts"
   ]
 }

@@ -17,13 +17,13 @@ const Hero = () => {
             Hi, I'm <span className="text-p2"> Abdullah</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2  text-white-100`}>
-            I developed 3D visuals , user <br className="hidden sm:block" />{" "}
-            iterfaces and web applications.
+            Transforming Ideas into Intuitive
+            <br className="hidden sm:block" /> and Aesthetic Web Interfaces.
           </p>
         </div>
       </div>
       <ComputersCanvas />
-      <div className="absolute flex items-center justify-center w-full bottom-1 ">
+      <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-32">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
