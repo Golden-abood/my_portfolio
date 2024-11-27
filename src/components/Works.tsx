@@ -6,6 +6,7 @@ import { github } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "./hoc/SectionWrapper";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -13,6 +14,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  project_link,
   source_code_link,
 }: {
   index: number;
@@ -36,7 +38,11 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <Link
+          to={project_link}
+          target="blank"
+          className="relative w-full h-[230px] cursor-pointer"
+        >
           <img
             src={image}
             alt="project_image"
@@ -55,7 +61,7 @@ const ProjectCard = ({
               />
             </div>
           </div>
-        </div>
+        </Link>
 
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
