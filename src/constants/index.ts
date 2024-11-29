@@ -167,7 +167,7 @@ const experiences = [
     company_name: "Ejad Solutions",
     icon: ejad,
     iconBg: "#383E56",
-    date: "March 2023 - Jan 2023",
+    date: "March 2023 - Jan 2024",
     points: [
       "Built responsive and dynamic user interfaces using Vue 3, Nuxt 3, and Tailwindcss ",
       "Contributed to the development of two major projects: Wareed and Calibro AI",
