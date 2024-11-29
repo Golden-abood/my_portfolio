@@ -26,7 +26,7 @@ import nuxtjs from "./tech/nuxt.png";
 import pinia from "./tech/pinia.png";
 import gsap from "./tech/gsap.svg";
 import framermotion from "./tech/framericon.png";
-import nextjs from "./tech/nestjs.png";
+import nextjs from "./tech/nextjs.png";
 import grqphql from "./tech/graphqL.png";
 import ejad from "./company/ejad.png";
 import meta from "./company/meta.png";
