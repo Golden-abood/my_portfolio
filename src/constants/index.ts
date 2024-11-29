@@ -16,11 +16,11 @@ import {
   // figma,
   docker,
   vuejs,
-  // nuxtjs,
+  nuxtjs,
   // pinia,
-  gsap,
-  framermotion,
-  // nextjs,
+  // gsap,
+  // framermotion,
+  nextjs,
   // grqphql,
   // meta,
   // starbucks,
@@ -115,14 +115,18 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "Gsap",
-    icon: gsap,
-  },
+  // {
+  //   name: "Gsap",
+  //   icon: gsap,
+  // },
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
+  {
+    name: "Next Js",
+    icon: nextjs,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -130,6 +134,10 @@ const technologies = [
   {
     name: "Vue Js",
     icon: vuejs,
+  },
+  {
+    name: "Nuxt Js",
+    icon: nuxtjs,
   },
   // {
   //   name: "figma",
@@ -139,22 +147,15 @@ const technologies = [
   //   name: "pinia",
   //   icon: pinia,
   // },
-  // {
-  //   name: "Nuxt Js",
-  //   icon: nuxtjs,
-  // },
-  // {
-  //   name: "Next Js",
-  //   icon: nextjs,
-  // },
+
   // {
   //   name: "GraphQL",
   //   icon: grqphql,
   // },
-  {
-    name: "Framer Motion",
-    icon: framermotion,
-  },
+  // {
+  //   name: "Framer Motion",
+  //   icon: framermotion,
+  // },
   {
     name: "docker",
     icon: docker,
