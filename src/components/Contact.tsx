@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { slideIn } from "../utils/motion";
 import SectionWrapper from "./hoc/SectionWrapper";
 
-const Contact = () => {
+export const Contact = () => {
   // Ref for the form
   const formRef = useRef<HTMLFormElement | null>(null);
 
@@ -136,4 +136,5 @@ const Contact = () => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(Contact, "contact");

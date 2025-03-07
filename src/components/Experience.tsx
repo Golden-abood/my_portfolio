@@ -58,14 +58,9 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => {
         ))}
       </ul>
       <div className="mt-2">
-        <strong>Reason for Leaving:</strong> I decided to leave my job to focus
-        on further developing my technical skills and programming knowledge.
-        While I had gained valuable practical experience through early entry
-        into the job market, I realized the importance of strengthening my
-        understanding of core programming concepts and expanding my expertise in
-        both front-end and back-end development. This decision was driven by my
-        desire to grow as a well-rounded developer and better align my skills
-        with long-term career goals in full-stack development.
+        <strong>Reason for Leaving:</strong> Left to focus on strengthening my
+        technical skills and expanding my expertise in front-end and back-end
+        development to grow into a full-stack developer.
       </div>
     </VerticalTimelineElement>
   );

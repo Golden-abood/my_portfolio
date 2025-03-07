@@ -47,6 +47,8 @@ import rouvana from "./projects/rouvana-tours.png";
 import xora from "./projects/xora.png";
 import golden from "./projects/golden.png";
 import aora from "./projects/aora.png";
+import linkedin from "./projects/Linkedin.png";
+import zentry from "./projects/zentry_2.png";
 
 export {
   logo,
@@ -98,4 +100,6 @@ export {
   xora,
   golden,
   aora,
+  linkedin,
+  zentry,
 };
