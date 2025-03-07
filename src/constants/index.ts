@@ -42,6 +42,8 @@ import {
   xora,
   golden,
   aora,
+  linkedin,
+  zentry,
 } from "../assets/index";
 
 export const navLinks = [
@@ -244,6 +246,66 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Linkedin Clone",
+    description:
+      "A MERN stack application built with React, Express, MongoDB, and Node.js, replicating key features of LinkedIn. It includes user authentication with JWT, profile creation and updates, post creation with image uploads, connection requests, like and comme functionality, and a personalized news feed algorithm. Designed with TailwindCSS and ShadCN, the platform ensures a seamless and responsive user experience. Additionally, data protection measures and welcome emails enhance security and engagement",
+    tags: [
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "Tanstack Query",
+      //   color: "pink-text-gradient",
+      // },
+      // {
+      //   name: "Tailwindcss",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: linkedin,
+    source_code_link: "https://gitlab.com/abdullah_zahabi/back-end",
+    project_link: "https://linkedin-clone-ten-brown.vercel.app",
+  },
+  {
+    name: "Zentry Clone",
+    description:
+      "A high-performance, visually stunning Zentry clone, inspired by the award-winning website known for its cutting-edge design and animations. This project is built with Nuxt.js and Vue.js, leveraging GSAP for seamless animations and interactive scrolling effects",
+    tags: [
+      {
+        name: "Nuxt 3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Vue Use",
+        color: "green-text-gradient",
+      },
+    ],
+    image: zentry,
+    source_code_link: "https://gitlab.com/abdullah_zahabi/zentry-clone",
+    project_link: "https://zentry-clone-umber.vercel.app",
+  },
   {
     name: "Calibro Ai",
     description:
