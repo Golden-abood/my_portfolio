@@ -308,7 +308,7 @@ const projects = [
     project_link: "https://zentry-clone-umber.vercel.app",
   },
   {
-    name: "Ecommerce Clone",
+    name: "Ecommerce app",
     description:
       " E-Commerce Application – Built a full-stack e-commerce platform using Next.js, Node.js, Express, MongoDB, Redis, and TailwindCSS. Implemented JWT-based authentication, product & cart management, Stripe payments, coupon codes, and an admin dashboard with sales analytics. Enhanced performance with Redis caching and ensured secure userflows.",
     tags: [
