@@ -44,6 +44,7 @@ import {
   aora,
   linkedin,
   zentry,
+  ecommerce,
 } from "../assets/index";
 
 export const navLinks = [
@@ -305,6 +306,32 @@ const projects = [
     image: zentry,
     source_code_link: "https://gitlab.com/abdullah_zahabi/zentry-clone",
     project_link: "https://zentry-clone-umber.vercel.app",
+  },
+  {
+    name: "Ecommerce Clone",
+    description:
+      " E-Commerce Application – Built a full-stack e-commerce platform using Next.js, Node.js, Express, MongoDB, Redis, and TailwindCSS. Implemented JWT-based authentication, product & cart management, Stripe payments, coupon codes, and an admin dashboard with sales analytics. Enhanced performance with Redis caching and ensured secure userflows.",
+    tags: [
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "white-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://gitlab.com/abdullah_zahabi/ecommerce",
+    project_link: "https://ecommerce-lovat-delta.vercel.app",
   },
   {
     name: "Calibro Ai",
