@@ -49,6 +49,7 @@ import golden from "./projects/golden.png";
 import aora from "./projects/aora.png";
 import linkedin from "./projects/Linkedin.png";
 import zentry from "./projects/zentry_2.png";
+import ecommerce from "./projects/ecommerce.png";
 
 export {
   logo,
@@ -102,4 +103,5 @@ export {
   aora,
   linkedin,
   zentry,
+  ecommerce,
 };
