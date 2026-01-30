@@ -29,6 +29,7 @@ import framermotion from "./tech/framericon.png";
 import nextjs from "./tech/nextjs.png";
 import grqphql from "./tech/graphqL.png";
 import ejad from "./company/ejad.png";
+import molham from "./company/molham.jpeg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -50,6 +51,10 @@ import aora from "./projects/aora.png";
 import linkedin from "./projects/Linkedin.png";
 import zentry from "./projects/zentry_2.png";
 import ecommerce from "./projects/ecommerce.png";
+import erp from "./projects/erp.png";
+import surveys from "./projects/slick_surveys.webp";
+import school from "./projects/school_projects_map.png";
+import slickSurveys from "./projects/surveys.webp";
 
 export {
   logo,
@@ -104,4 +109,9 @@ export {
   linkedin,
   zentry,
   ecommerce,
+  molham,
+  erp, 
+  school, 
+  surveys,
+  slickSurveys
 };

@@ -17,7 +17,8 @@ type Experience = {
   date: string;
   points: string[];
 };
-const ExperienceCard = ({ experience }: { experience: Experience }) => {
+const ExperienceCard = ({ experience , index}: { experience: Experience , index: number }) => {
+  console.log(index)
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -57,11 +58,13 @@ const ExperienceCard = ({ experience }: { experience: Experience }) => {
           </li>
         ))}
       </ul>
-      <div className="mt-2">
-        <strong>Reason for Leaving:</strong> Left to focus on strengthening my
-        technical skills and expanding my expertise in front-end and back-end
-        development to grow into a full-stack developer.
-      </div>
+        {experience.company_name === 'Ejad Solutions'  && (
+          <div className="mt-2">
+            <strong>Reason for Leaving:</strong> Left to focus on strengthening my
+            technical skills and expanding my expertise in front-end and back-end
+            development to grow into a full-stack developer.
+          </div>
+        )}
     </VerticalTimelineElement>
   );
 };
@@ -84,6 +87,7 @@ const Experience = () => {
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
+              index={index}
             />
           ))}
         </VerticalTimeline>
