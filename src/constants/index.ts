@@ -45,6 +45,12 @@ import {
   linkedin,
   zentry,
   ecommerce,
+  // tesla,
+  // meta,
+  molham,
+  erp,
+  school,
+  slickSurveys,
 } from "../assets/index";
 
 export const navLinks = [
@@ -204,19 +210,21 @@ const experiences = [
   //     "Participating in code reviews and providing constructive feedback to other developers.",
   //   ],
   // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Full stack Developer",
+    company_name: "Molham Team",
+    icon: molham,
+    iconBg: "#052844",
+    date: "Mya 2025 - Present",
+    points: [
+      "Developed and maintained full-stack web applications using React, Next.js, TypeScript, and TailwindCSS, focusing on modern UI/UX and performance.",
+      "Built and maintained type-safe APIs using tRPC with Drizzle ORM and Kysely, and developed frontend pages using React with TanStack Query for efficient data fetching, caching, and synchronization.",
+      "Designed reusable UI components using ShadCN and enhanced user experience with Framer Motion animations.",
+      "Implemented server-side pagination, filtering, and data fetching using modern state management and caching strategies.",
+      "Contributed to the Slick Survey mobile application, working with React Native, Expo, and React Hook Form to refactor the UI and update existing features following backend changes introduced in Slick ERP.",
+      "Used Docker to containerize applications and ensure consistent development and deployment environments."      
+    ],
+  },
 ];
 
 const testimonials = [
@@ -247,6 +255,70 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Slick ERP",
+    description:
+      "A modern ERP web application built with React, TypeScript, tRPC, PostgreSQL, Drizzle ORM, and Kysely, designed to manage organizational workflows and internal operations. The system features role-based access control (RBAC) with departments and designations, type-safe APIs, and advanced server-side pagination, filtering, and sorting. It includes a scalable notification system, real-time data synchronization using TanStack Query, and a polished UI built with TailwindCSS, ShadCN, and Framer Motion. The application is containerized with Docker to ensure consistent development and deployment environments.",
+    tags: [
+      {
+        name: "tRPC",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Postgres",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "Tanstack Query",
+      //   color: "pink-text-gradient",
+      // },
+      // {
+      //   name: "Tailwindcss",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: erp,
+    source_code_link: "",
+    project_link: "https://app.erpslick.com",
+  },
+  {
+    name: "School Projects Map",
+    description:
+      "An interactive web-based data visualization platform built using Next.js, TailwindCSS, ShadCN, MapLibre, and OpenFreeMap. The application displays statistical insights and geospatial data for school renovation projects on an interactive map centered on Syria. Users can filter schools by governorate, renovation status, and name, with real-time updates reflected on the map. The project focuses on usability, performance, and modern UI/UX, providing a clear and intuitive way to explore impact-driven data.",
+    tags: [
+      {
+        name: "Next Js",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Open Street Map",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mablibre",
+        color: "white-text-gradient",
+      },
+      // {
+      //   name: "Tanstack Query",
+      //   color: "pink-text-gradient",
+      // },
+      // {
+      //   name: "Tailwindcss",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: school,
+    source_code_link: "",
+    project_link: "https://school-projects-map.vercel.app",
+  },
   {
     name: "Linkedin Clone",
     description:
@@ -548,6 +620,36 @@ const projects = [
     image: golden,
     source_code_link: "https://github.com/Golden-abood/landing_Page_React",
     project_link: "https://landing-page-react-tawny.vercel.app/",
+  },
+  {
+    name: "Slick Surveys",
+    description:
+      "A mobile survey application developed with React Native, Expo, and React Hook Form, tightly integrated with Slick ERP. The app enables users to send, receive, and review dynamic forms and templates, reflecting backend-driven configurations. It includes UI refactoring and feature updates aligned with evolving ERP backend changes, ensuring data consistency and a smooth mobile user experience. Designed with performance and usability in mind, the application supports modern form handling and seamless synchronization with enterprise systems.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expo",
+        color: "white-text-gradient",
+      },
+      {
+        name: "sqlite",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "Tanstack Query",
+      //   color: "pink-text-gradient",
+      // },
+      // {
+      //   name: "Tailwindcss",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: slickSurveys,
+    source_code_link: "",
+    project_link: "https://play.google.com/store/apps/details?id=com.erpslick.surveys",
   },
   {
     name: "Aora",
